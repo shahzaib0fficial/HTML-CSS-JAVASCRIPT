@@ -1,0 +1,65 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+     text-align:center;
+     margin-top:10%;
+}
+
+#heading{
+         margin-bottom:20px;
+         margin-left:25%;
+         background:#009879;
+         width:500px;
+         color:white;
+         padding:5px;
+         border-radius:10px;
+}
+
+#number{
+        padding:5px;
+        width:20%;
+        font-size:16px;
+        border:none;
+        background:#f3f3f3;
+        color:grey;
+}
+
+#find{
+      margin-top:10px;
+      background:#009879;
+      color:white;
+      border:none;
+      border-radius:3px;
+      font-size:18px;
+      padding:3px;
+}
+
+#find:active{
+             background:yellow;
+             color:red;
+}
+
+#result{
+        margin-top:15px;
+        font-size:25px;
+        color:darkgreen;
+}
+
+
+#warning{
+         margin-top:-10%;
+         margin-bottom:5%;
+         color:red;
+}
+
+
+
+
+
+
+
+
+
