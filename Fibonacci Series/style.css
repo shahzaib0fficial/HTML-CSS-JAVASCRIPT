@@ -1,0 +1,61 @@
+body{
+     margin-top:15%;
+     text-align:center;
+}
+
+h2{
+   color:#009879;
+}
+
+#get{
+     font-size:18px;
+     padding:5px;
+     border:none;
+     border-radius:3px;
+     background:#f3f3f3;
+     color:grey;
+}
+
+#print{
+       font-size:18px;
+       border:none;
+       border-radius:3px;
+       padding:3px;
+       background:#009879;
+       color:white;
+       margin-top:10px;
+}
+
+#print:active{
+              background:yellow;
+              color:red;
+}
+
+#display{
+         margin-left:23%;
+         font-weight:bold;
+         font-size:30px;
+         color:#009879;
+         width:500px;
+         overflow:hidden;
+         overflow-x:scroll;
+
+         /*this scrollbar styling is only for firefox*/
+
+         scrollbar-width:thin;
+         scrollbar-color:skyblue #009879;
+}
+
+/*this scrollbar styling is for browers otherthan mozila firefox*/
+
+#display::-webkit-scrollbar{
+                             height:7px;
+}
+
+#display::-webkit-scrollbar-track{
+                                  background:#009879;
+}
+
+#display::-webkit-scrollbar-thumb{
+                                  background-color:skyblue;
+}
