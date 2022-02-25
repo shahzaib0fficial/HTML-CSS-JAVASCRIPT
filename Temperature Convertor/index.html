@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+      <head>
+      <title>Temperature Convertor</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+
+<body>
+
+<!--
+
+Id Names Means
+
+c_k_s means celsius to kelvin show
+c_f_s means celsius to fahrenheit show
+k_c_s means kelvin to celsius show
+k_f_s means kelvin to fahrenheit show
+f_c_s means fahrenheit to celsius show
+f_k_s means fahrenheit to kelvin show
+
+c_k_c means celsius to kelvin convert
+c_f_c means celsius to fahrenheit convert
+k_c_c means kelvin to celsius convert
+k_f_c means kelvin to fahrenheit convert
+f_c_c means fahrenheit to celsius convert
+f_k_c means fahrenheit to kelvin convert
+
+c_k_g means celsius to kelvin getNumber
+c_f_g means celsius to fahrenheit getNumber
+k_c_g means kelvin to celsius getNumber
+k_f_g means kelvin to fahrenheit getNumber
+f_c_g means fahrenheit to celsius getNumber
+f_k_g means fahrenheit to kelvin getNumber
+
+c_k_d means celsius to kelvin dispalyHere
+c_f_d means celsius to fahrenheit dispalyHere
+k_c_d means kelvin to celsius dispalyHere
+k_f_d means kelvin to fahrenheit dispalyHere
+f_c_d means fahrenheit to celsius dispalyHere
+f_k_d means fahrenheit to kelvin dispalyHere
+
+-->
+
+
+
+<div class="options">
+
+<h2>Choose any One</h2>
+
+<ul>
+   <li class="list" onclick="c_k_s()">Celsius &rarr; Kelvin</li>
+   <li class="list" onclick="c_f_s()">Celsius &rarr; Fahrenheit</li>
+   <li class="list" onclick="k_c_s()">Kelvin &rarr; Celsius</li>
+   <li class="list" onclick="k_f_s()">Kelvin &rarr; Fahrenheit</li>
+   <li class="list" onclick="f_c_s()">Fahrenheit &rarr; Celsius</li>
+   <li class="list" onclick="f_k_s()">Fahrenheit &rarr; Kelvin</li>
+</ul>
+
+</div>
+
+
+
+<div class="all_conversion">
+
+
+<div id="c_k_s">
+
+<button class="back" onclick="back()">Back</button>
+<br>
+<h2>Enter a Temperature in Celsius to Convert into Kelvin</h2>
+
+<input type="number" placeholder="100..." class="input_feild" id="c_k_g">
+<br>
+<button class="convert" onclick="c_k_c()">Convert</button>
+
+<p class="display" id="c_k_d"></p>
+
+</div>
+
+
+<div id="c_f_s">
+
+<button class="back" onclick="back()">Back</button>
+<br>
+<h2>Enter a Temperature in Celsius to Convert into Fahrenheit</h2>
+
+<input type="number" placeholder="100..." class="input_feild" id="c_f_g">
+<br>
+<button class="convert" onclick="c_f_c()">Convert</button>
+
+<p class="display" id="c_f_d"></p>
+
+</div>
+
+
+<div id="k_c_s">
+
+<button class="back" onclick="back()">Back</button>
+<br>
+<h2>Enter a Temperature in Kelvin to Convert into Celsius</h2>
+
+<input type="number" placeholder="100..." class="input_feild" id="k_c_g">
+<br>
+<button class="convert" onclick="k_c_c()">Convert</button>
+
+<p class="display" id="k_c_d"></p>
+
+</div>
+
+
+<div id="k_f_s">
+
+<button class="back" onclick="back()">Back</button>
+<br>
+<h2>Enter a Temperature in Kelvin to Convert into Fahrenheit</h2>
+
+<input type="number" placeholder="100..." class="input_feild" id="k_f_g">
+<br>
+<button class="convert" onclick="k_f_c()">Convert</button>
+
+<p class="display" id="k_f_d"></p>
+
+</div>
+
+
+<div id="f_c_s">
+
+<button class="back" onclick="back()">Back</button>
+<br>
+<h2>Enter a Temperature in Fahrenheit to Convert into Celsius</h2>
+
+<input type="number" placeholder="100..." class="input_feild" id="f_c_g">
+<br>
+<button class="convert" onclick="f_c_c()">Convert</button>
+
+<p class="display" id="f_c_d"></p>
+
+</div>
+
+
+<div id="f_k_s">
+
+<button class="back" onclick="back()">Back</button>
+<br>
+<h2>Enter a Temperature in Fahrenheit to Convert into Kelvin</h2>
+
+<input type="number" placeholder="100..." class="input_feild" id="f_k_g">
+<br>
+<button class="convert" onclick="f_k_c()">Convert</button>
+
+<p class="display" id="f_k_d"></p>
+
+</div>
+
+
+</div>
+
+
+</body>
+
+<script src="javascript.js"></script>
+
+</html>
